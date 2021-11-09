@@ -1,0 +1,20 @@
+{
+  "name": "cucumbermusic",
+  "version": "1.1.0",
+  "description": "Modified discord bot for playing music in stage channel for 24/7. Source from NeTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "Pan_Okurka",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.5.5",
+    "discord.js": "^13.0.0-dev.5e433b5.1627473836",
+    "libsodium-wrappers": "^0.7.9",
+    "node-fetch": "^2.6.1",
+    "sodium-native": "^3.3.0",
+    "ytdl-core": "^4.9.0"
+  }
+}
